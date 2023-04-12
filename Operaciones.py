@@ -21,6 +21,6 @@ while True:
             print("Dato Inválido, vuelve a ingresar la opción")
             opcion = int(input("Ingrese una opción válida: "))
     except ValueError as VE:
-        print("\n ERROR, Ingrese Dato Válido \n")
+        print("\n !!!!!Ingrese Dato Válido \n")
     except Exception as e:
         print("Error",e)
