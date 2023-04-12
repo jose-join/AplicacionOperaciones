@@ -41,7 +41,7 @@ while True:
             resultado = division(a, b)
             print("Resultado: ", resultado)
         elif (opcion == 5):
-            print("Gracias por usar la aplicación")
+            print("Muchas Gracias por usar la aplicación")
             break
     except ValueError as VE:
         print("\n Error, Ingrese Dato Válido \n")
