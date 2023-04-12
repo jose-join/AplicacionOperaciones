@@ -10,12 +10,13 @@ def division(a,b):
     return a/b
 while True:
     try:
+        print("------------------------------")
         print("Operaciones Básicas")
         print("1. Suma")
         print("2. Resta")
         print("3. Multiplicacion")
         print("4. Division")
-        print("5. Salir")
+        print("5. Salir\n")
         opcion = int(input("Ingrese una opción válida: "))
         while(opcion < 1 or opcion > 5):
             print("Dato Inválido, vuelve a ingresar la opción")
@@ -46,4 +47,4 @@ while True:
     except ValueError as VE:
         print("\n Error, Ingrese Dato Válido \n")
     except Exception as e:
-        print("Error General",e)
+        print("Error",e)
