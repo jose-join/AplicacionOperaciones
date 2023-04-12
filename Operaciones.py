@@ -1,7 +1,7 @@
-def resta(a,b):
-    return a-b
 def suma(a,b):
     return a+b
+def resta(a,b):
+    return a-b
 def multiplicacion(a,b):
     return a*b
 def division(a,b):
@@ -25,25 +25,25 @@ while True:
             b = float(input("Ingrese el segundo número: "))
             resultado = suma(a, b)
             print("Resultado: ", resultado)
-        elif (opcion == 2):
+        if (opcion == 2):
             a = float(input("Ingrese el primer número: "))
             b = float(input("Ingrese el segundo número: "))
             resultado = resta(a, b)
             print("Resultado: ", resultado)
-        elif (opcion == 3):
+        if (opcion == 3):
             a = float(input("Ingrese el primer número: "))
             b = float(input("Ingrese el segundo número: "))
             resultado = multiplicacion(a, b)
             print("Resultado: ", resultado)
-        elif (opcion == 4):
+        if (opcion == 4):
             a = float(input("Ingrese el primer número: "))
             b = float(input("Ingrese el segundo número: "))
             resultado = division(a, b)
             print("Resultado: ", resultado)
-        elif (opcion == 5):
+        if (opcion == 5):
             print("Gracias por usar la aplicación")
             break
     except ValueError as VE:
-        print("\n Error, Ingrese Dato Válido \n")
+        print("\n !!!!!Ingrese Dato Válido \n")
     except Exception as e:
-        print("Error General",e)
+        print("Error",e)
