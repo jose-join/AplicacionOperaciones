@@ -6,7 +6,7 @@ def multiplicacion(a,b):
     return a*b
 def division(a,b):
     if (b==0):
-        raise ZeroDivisionError("No se puede hacer divisiones entre 0, 11111")
+        raise ZeroDivisionError("No se puede hacer divisiones entre 0")
     return a/b
 while True:
     try:
