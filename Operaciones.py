@@ -20,6 +20,7 @@ while True:
         while(opcion < 1 or opcion > 5):
             print("Dato Inválido, vuelve a ingresar la opción")
             opcion = int(input("Ingrese una opción válida: "))
-            
     except ValueError as VE:
         print("\n Ingresa un dato válido \n")
+    except Exception as e:
+        print("Error",e)
